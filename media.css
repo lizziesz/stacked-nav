@@ -1,25 +1,26 @@
+body {
+  margin: 0px;
+}
+
 nav {
   float: right;
-  /*margin: 0 0 3em 0;*/
+  overflow: hidden;
 }
 
 #nav {
-  /*float: right;*/
   list-style-type: none;
-  /*margin: 0 0 3em 0;*/
 }
 
 #nav li {
   float: left;
   padding: 10px;
   border: 2px solid purple;
-  /*height: 25px;
-  width: 50px;*/
 }
 
 @media (max-width: 2000px) {
   nav {
     width: 50%;
+    float: right;
   }
   #nav li {
     height: 50%;
